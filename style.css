@@ -1,74 +1,107 @@
+* {
+  text-align: center;
+}
 body {
-    color: #1c1c1c;
-    background-color: #828282;
-  }
-  
-  header {
-    text-align: center;
-  }
-  
-  h1 {
-    font-family: 'Courier Prime', monospace;
-    font-size: 74px;
-    width: 100%;
-  }
-  
-  h2 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    font-size: 42px;
-    padding-bottom: 20px;
-  }
-  
-  #image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border: 25px white solid;
-    margin: 0px;
-  }
-  
-  #img-caption {
-    text-align: right;
-    font-size: 12px;
-  }
-  
-  #quote {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-    width: 100%;
-  }
-  #quote h3 {
-    padding: 10px;
-    margin: 40px;
-    text-align: center;
-    background-color: rgba(237, 237, 237, 0.7)
-  }
-  
-  #tribute-info, footer {
-    margin: 20px;
-    padding: 10px;
-    background-color: rgba(237, 237, 237, 0.9)
-  }
-  
-  h4 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-    font-size: 28px;
-    text-align: center;
-  }
-  
-  p {
-    margin: 10px 15px;
-  }
-  
-  a {
-    text-decoration: underline;
-    color: #1c1c1c;
-  }
-  
-  a:hover {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #1c1c1c;
-  }
+  color: #1c1c1c;
+  background-image: url("https://th.bing.com/th/id/R.ca9b599587bbe024aadc74603e665de0?rik=qnEBmI5mzYhGDA&riu=http%3a%2f%2fcdn.history.com%2fsites%2f2%2f2017%2f08%2fGettyImages-469049464.jpg&ehk=DHx0lU7V%2bhFBC0gZ8WhwSZNRtdH%2bp1HybtBROiRgi7I%3d&risl=&pid=ImgRaw&r=0");
+  background-position: left 0 bottom 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+  padding: 150px 0;
+  margin-bottom: 45px;
+  background-color: hsla(0, 11%, 67%, 0.5);
+}
+
+h1,
+h2 {
+  margin: 10px auto;
+  padding: 10px;
+  width: 50%;
+  min-width: 330px;
+  background-color: rgba(237, 237, 237, 0.7);
+}
+
+h1 {
+  font-family: "Courier Prime", monospace;
+  font-size: 84px;
+}
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+}
+
+#figure {
+  max-width: 100%;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 600px;
+  border: 25px #f0f0f0 solid;
+  margin: 0 auto;
+}
+
+#img-caption {
+  position: relative;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-right: 5px;
+}
+
+#quote {
+  font-family: "Quicksand", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 35px auto;
+  max-width: 70%;
+  padding: 1em;
+  background-color: hsla(0, 11%, 67%, 0.96);
+  border: black solid 5px;
+}
+
+#tribute-info,
+footer {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 85%;
+  background-color: hsla(0, 0%, 94%, 0.92);
+}
+
+h4 {
+  font-family: "Courier Prime", monospace;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 3px;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+  margin: 10px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #9f0f0f;
+}
+
+a:hover {
+  text-decoration: none;
+  color: hsla(0, 83%, 34%, 0.5);
+}
+
+a:visited {
+  color: #9e938f;
+}
+
+i {
+  font-size: 24px;
+}
