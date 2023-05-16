@@ -1,5 +1,5 @@
 # turing-tribute
-A quick site I made using HTML and CSS as part of my coding bootcamp pre-work via FreeCodeCamp, designed to meet the following criteria:
+A quick site I made using HTML and CSS via FreeCodeCamp, designed to meet the following criteria:
 
 Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
 
